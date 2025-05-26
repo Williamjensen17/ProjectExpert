@@ -12,13 +12,14 @@ class Program
     /// <summary>
     /// Default console color for displaying error messages throughout the application
     /// </summary>
-    static ConsoleColor errorColor = ConsoleColor.Red;
+    const ConsoleColor errorColor = ConsoleColor.Red;
 
     /// <summary>
     /// Global flag to handle graceful interruption via Ctrl+C
     /// Set to true when user requests cancellation, checked in long-running operations
     /// </summary>
     static bool cancelRequested = false;
+
     #endregion
 
     #region Main Entry Point
